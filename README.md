@@ -1,4 +1,4 @@
-# Devtools
+# Pydevtools
 
 A lightweight collection of personal CLI tools for Python projects.
 
@@ -16,7 +16,7 @@ uv sync
 ### Use In Another Project
 
 ```bash
-uv add git+https://github.com/musicalchemist/devtools.git
+uv add git+https://github.com/musicalchemist/pydevtools.git
 ```
 
 ## Available Commands
@@ -40,8 +40,8 @@ Output includes:
 ## Project Structure
 
 ```text
-devtools/
-  src/devtools/
+pydevtools/
+  src/pydevtools/
     check_space.py
   pyproject.toml
 ```
